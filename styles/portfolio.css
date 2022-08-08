@@ -8,18 +8,12 @@
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 body {
   text-align: center;
-}
-.navbar > .container {
-  display: flex;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
 }
 
 h1 {
@@ -29,12 +23,6 @@ h1 {
   font-size: 48px;
   line-height: 1.5;
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
-  }
-}
 
 h2 {
   font-size: 32px;
@@ -42,12 +30,6 @@ h2 {
   color: var(--branding-color);
   font-weight: 500;
   line-height: 1.2;
-}
-@media (max-width: 576px) {
-  h2 {
-    font-size: 32px;
-    text-align: center;
-  }
 }
 
 h3 {
@@ -97,32 +79,16 @@ img {
   position: relative;
   max-width: 100%;
 }
-.btn-branding {
-  background: var(--branding-color);
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
-.btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
+
+.img-fluid {
+  width: 280px;
+  height: 200px;
 }
 
-.btn {
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
   text-decoration: none;
-  vertical-align: middle;
-  cursor: pointer;
-  user-select: none;
-  border: 1px solid transparent;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }

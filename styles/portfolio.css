@@ -16,6 +16,10 @@ body {
   text-align: center;
 }
 
+.hero {
+  text-align: center;
+  padding: 160px 20px;
+}
 h1 {
   font-family: var(--heading-font-family);
   color: var(--branding-color);

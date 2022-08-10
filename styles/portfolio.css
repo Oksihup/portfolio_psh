@@ -107,3 +107,8 @@ img {
   font-size: 28px;
   text-decoration: none;
 }
+.content a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}

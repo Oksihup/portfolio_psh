@@ -99,7 +99,10 @@ img {
   max-width: 320px;
   height: 260px;
 }
-
+.logo {
+  max-width: 120px;
+  max-height: 50px;
+}
 .email-link {
   display: flex;
   justify-content: center;
